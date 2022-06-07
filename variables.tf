@@ -20,7 +20,7 @@ variable "instance_type" {
 
 variable "ami_id" {
   type    = string
-  default = "ami-04893cdb768d0f9ee"
+  default = "ami-079b5e5b3971bd10d"
 }
 
 variable "volume_type" {
@@ -30,12 +30,12 @@ variable "volume_type" {
 
 variable "ec2_key_name" {
   type    = string
-  default = "devops2022"
+  default = "devopsmarch2022"
 }
 
 variable "subnet_name" {
   type    = string
-  default = "subnet-6f19ee04"
+  default = "subnet-0bdd92214a886e8ba"
 }
 
 variable "tag_values" {
